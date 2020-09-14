@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ /* Set the default color and font family */
+body {
+    color: #201C56;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #201C56;
+}
+
+
+header h2 {
+    color: #201C56;
+    background-color: #A29ECD;
+    padding: 1px;
+}
+
+
+header nav {
+    margin: 7px 0;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: #A29ECD;
+    font-size: 26px;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+ header nav ul li a {
+    border-bottom: 2px solid  #A29ECD;
+    margin: 0 10px;
+    padding: 5px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+
+.hero {
+    background-image: url("../images/hero.jpg");
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+
+.hero h3 {
+    color: #201C56;
+    background-color: #A29ECD;
+    padding: 10px;
+    margin: 15px 100px;
+}
+
+
+#about-me {
+    display: flex;
+}
+
+
+.section-title {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
